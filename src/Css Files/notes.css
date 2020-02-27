@@ -1,0 +1,33 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    transition: margin .20s linear;
+}
+
+.slideMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+    transition: margin .20s linear;
+    background-color: yellowgreen;
+    height: 40%;
+}
+
+.gridView{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 2em;
+}
+
+.listView{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    margin: auto;
+    margin-top: 2em;
+}

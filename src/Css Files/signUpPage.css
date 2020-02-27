@@ -1,0 +1,272 @@
+
+.signupfullView{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+}
+
+.signupInitialview{
+    display : flex;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    min-width: 323px;
+}
+
+.headerview{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 5%;
+    font-size: 1.5em;
+    margin-left: 8%;
+}
+.headerviewAccount{
+    display: flex;
+    margin-top: 3%;
+    font-size: 1.2em;
+    margin-left: 8%;
+
+}
+
+.textimageview{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: flex-start;
+    margin-left: 8%;
+}
+
+.textview{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.emailPara{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.passwordpara{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.buttonlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+@media (max-width: 1800px){
+    
+.signupInitialview{
+    display : flex;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 523px;
+}
+
+.imageview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+}
+   
+}
+
+@media (max-width: 1000px){
+    
+.signupInitialview{
+    display : flex;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 323px;
+}
+
+.imageview{
+    display: none;
+}
+
+.textimageview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: flex-start;
+}
+
+.textview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fname{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.emailPara{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.password{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.passwordpara{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.buttonlink{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 600px){
+    
+.signupInitialview{
+    display : flex;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+    margin-top: 12%;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 323px;
+}
+
+.imageview{
+    display: none;
+}
+
+.textimageview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: flex-start;
+}
+
+.textview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fname{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.emailPara{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.password{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.passwordpara{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.buttonlink{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}

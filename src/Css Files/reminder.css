@@ -1,0 +1,12 @@
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+
+.textDate{
+    display: flex;
+    flex-direction: row;
+}
+
